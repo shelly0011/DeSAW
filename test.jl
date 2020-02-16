@@ -92,7 +92,7 @@ struct POMDPHistory{S,A,O,B}
     info_hist::Vector{Any}
     ainfo_hist::Vector{Any}
     uinfo_hist::Vector{Any}
-
+    
     discount::Float64
 
     # if an exception is captured, it will be stored here
